@@ -1,5 +1,7 @@
 package comum
 
+import java.util.Set;
+
 class User {
 
 	transient springSecurityService

@@ -94,5 +94,6 @@ class UserPermissao implements Serializable {
 	static mapping = {
 		id composite: ['permissao', 'user']
 		version false
+		permissao lazy:false
 	}
 }
